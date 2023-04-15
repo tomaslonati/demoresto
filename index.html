@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4118c8d135.js" crossorigin="anonymous"></script>
+    <header class="header">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- Logo -->
+        <a href="#" class="logo"><img src="logo2.png" alt=""></a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li class=".menu__item"><a  href="#sec-3">Carta</a></li>
+                <li class=".menu__item"><a href="#sec-4">Nostros</a> </li>
+                <li class=".menu__item"><a href="#sec-5">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</head>
+<body>
+
+    <main>
+        <section id="vid">
+
+            <video src="salmon.mp4" autoplay="true" muted="true" loop="true" ></video>
+            <h1>BIENVENIDO A UNA NUEVA EXPERIENCIA</h1>
+            <h2><a href="#sec-5">RESERVAR</a></h2>
+        </section>
+        <section id="men">
+            <h1>ESPECIALIDADES DE LA CASA</h1>
+            <div id="especialidades">
+                <div class="target">
+                    <img src="sushi.jpg" alt="">
+                    <br>
+                    <h2>SUSHI<li></li></h2>
+                    
+                </div>
+                <div class="target">
+                    <img src="pescado.jpg" alt="">
+                    <br>
+                    <h2>PESCADOS<li></li></h2>
+                </div>
+                <div class="target">
+                    <img src="ensalada.jpg" alt="">
+                    <br>
+                    <h2>ENSALADAS<li></li></h2>
+                </div>
+            </div>
+        </section>
+        <section id="sec-3">
+                <h1 class="tit">NUESTRO MENÚ Y CARTA DE VINOS</h1>
+            <div class="cont3">
+                    
+                <div id="img-menu" class="men1">
+                    <h1>Conocé nuestro menú</h1>
+                    <button class="white"><a href="">VER MENÚ</a></button>
+                </div>
+                <div  class="men1" id="img-vino">
+                    <h1>Conocé nuestra carta de vinos</h1>
+                    <button class="white"><a href="">VER CARTA</a></button>
+                </div>
+            </div>
+
+            <h3 class="line"></h3>
+
+            <section id="sec-4">
+                <div class="cont3" id="cont-4">
+                    <div id="nos">
+                        <div id="nos-text">
+                            <h1>Nosotros</h1>
+                            <p>Esta es una pagina web de un restaurante ficticio realizada por <strong>WEB FTE</strong> a modo de demo. Realizamos páginas web 100% personalizadas para su restaurante, hotel, empresa o emprendimiento.</p>
+                            <p>Si necesita una página web, no dude en contactarnos. </p>
+                        </div>
+                        <div id="nos-img">
+                            <img src="nosotros.png" alt="">
+                        </div>
+                    </div>
+                    <div id="maps">
+                        <div class="mapa"  >
+                            <h1>Local 1</h1>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5288.8151639764865!2d-58.38096240961099!3d-34.60472269721508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1680619399432!5m2!1ses!2sar"></iframe>
+                        </div>
+                        <div class="mapa"  >
+                            <h1>Local 2</h1>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5288.8151639764865!2d-58.38096240961099!3d-34.60472269721508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1680619399432!5m2!1ses!2sar" ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="sec-5">
+            <div id="formulario">
+                <form action="">
+                    <h1>Formulario de reservas</h1>
+                    <br>
+                    <input class="inp" type="text" placeholder="Nombre y apeliido">
+                    <br>
+                    <input class="inp" type="text" placeholder="Celular">
+                    <br>
+                    <input class="inp" type="text" placeholder="Mail">
+                    <br>
+                    <textarea class="inp" name="" id="" cols="30" rows="10">Especificaciones:</textarea>
+                    <br>
+                    <button class="inp" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <script src="script.js"></script>
+    <div class="col">
+        <p id="dem">Página web demo desarrollada por <strong>WEB FTE</strong></p>
+        <h4 id="contacto">Contactanos para presupuestos:</h4>
+        
+        <p class="parrafo"><a class="fa fa-envelope" href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=GTvVlcSGMhsLwBkbSftQlBXcMjbdLkPPjlnblldGKpsHHZmQVZKBzbjLpNrJFDQTqrbRrxVQzBnnK"></a>
+            <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=GTvVlcSKjDXdKwFVRZglRVtxHltRgbNwFMJsglbHHDcCJDnqQWFxXTTfrCGmcDVQcqNhHzsPJDSnC">(contactowebfte@gmail.com)</a></p>
+        
+        <p class="parrafo"><a class="fa-brands fa-whatsapp" href="https://wa.me/542966740772?text=Hola! Necesito un presupuesto para mi página web"></a> 
+            <a  href="https://wa.me/542966740772?text=Hola! Necesito un presupuesto para mi página web">(+54 9 2966 740772)</a></p>
+        
+                <p class="parrafo"><a class="fa-brands fa-instagram" href="https://www.instagram.com/web.fte/"></a> 
+                    <a  href="https://www.instagram.com/web.fte/">(@web.fte)</a></p>
+    <!-- aca tengo que ajustar el widt para que abarque solo justo cuanod esta para celular -->
+</div>
+
+<div class="parrafo">
+    <p class="parrafo" id="copy">Copyright © Todos los derechos reservados</p>
+</div>
+
+    </footer>
+</body>
+</html>
